@@ -36,6 +36,9 @@ onResetPassPress = () => {
   <TouchableOpacity style={styles.button1} onPress={() => this.props.navigation.navigate("Login")}>
    <Text style={{ color:"#FFF" , fontWeight:"500"}}>Back to Login</Text>
   </TouchableOpacity>
+<TouchableOpacity style={styles.button1} onPress={() => this.props.navigation.navigate("Register")}>
+   <Text style={{ color:"#FFF" , fontWeight:"500"}}>Back to SIGNUP</Text>
+  </TouchableOpacity>
        
         </View>
        
