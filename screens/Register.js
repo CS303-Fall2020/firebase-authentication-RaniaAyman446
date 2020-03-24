@@ -59,6 +59,11 @@ export default class Register extends React.Component{
   <TouchableOpacity style={styles.button} onPress={this.handleSignUp } >
    <Text style={{ color:"#FFF" , fontWeight:"500"}}>SIGNUP</Text>
   </TouchableOpacity>
+  <TouchableOpacity style={styles.button1} onPress={() => this.props.navigation.navigate("Login")}>
+   <Text style={{ color:"#FFF" , fontWeight:"500"}}>Back to Login</Text>
+  </TouchableOpacity>
+  <TouchableOpacity style={styles.button1} onPress={() => this.props.navigation.navigate("ForgotPassword")}>
+   <Text style={{ color:"#FFF" , fontWeight:"500"}}>Back to Forgot Password</Text>
   
   </View>
  )
