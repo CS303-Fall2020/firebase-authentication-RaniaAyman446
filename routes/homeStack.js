@@ -34,8 +34,9 @@ var firebaseConfig = {
 const screens ={
     Loading:{
         screen:Loading,
-        navigationOption:{
+        navigationOptions:{
             title:"Loading",
+            headerLeft: null,
             headerStyle:{
                 backgroundColor:"coral"
                 }
@@ -50,32 +51,37 @@ Login:{
          
 Profile:{
     screen:Profile,
-    navigationOption:{
-    title:"Profile"
+    navigationOptions:{
+    title:"Profile",
+        headerLeft: null,
                 }
                 }, 
 Register:{
     screen:Register,
-    navigationOption:{
-        title:"Register"
+    navigationOptions:{
+        title:"Register",
+        headerLeft: null,
         } 
     },
 SignIn:{
         screen:SignIn,
-        navigationOption:{
-        title:"SignIn"
+        navigationOptions:{
+        title:"SignIn",
+            headerLeft: null,
                     }
                     }, 
 ForgotPassword:{
         screen:ForgotPassword,
-        navigationOption:{
-            title:"ForgotPassword"
+        navigationOptions:{
+            title:"ForgotPassword",
+            headerLeft: null,
             } 
         },
 Profile:{
         screen:Profile,
         navigationOption:{
             title:"Profile",
+            headerLeft: null,
             headerStyle:{
                 backgroundColor:"coral"
                 }
@@ -84,13 +90,15 @@ Profile:{
 Todo:{
     screen:Todo,
     navigationOption:{
-        headertitle:() => <Header/>
+        headertitle:() => <Header/>,
+        headerLeft: null
     }
 },
 ReviewDetails:{
     screen:ReviewDetails,
     navigationOption:{
-        title:"Todo Details"
+        title:"Todo Details",
+        headerLeft: null,
     }
 },
 
